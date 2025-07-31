@@ -36,7 +36,7 @@ Ce script :
 
 ### 🔐 Reverse Proxy (facultatif)
 
-Le dossier reverseproxy/conf.d/nginx.conf contient un exemple de configuration Nginx avec redirection HTTPS.
+Le dossier *reverseproxy/conf.d/nginx.conf* contient un exemple de configuration Nginx avec redirection HTTPS.
 Il faut l'adapter au contexte.
 
  ---
