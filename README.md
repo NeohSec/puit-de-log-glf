@@ -10,7 +10,7 @@
 ### 1. Cloner le dépôt
 
 ```bash
-git clone https://github.com/votre-utilisateur/puit-de-log-glf.git
+git clone https://github.com/NeohSec/puit-de-log-glf.git
 ```
 ```bash
 cd puit-de-log-glf
