@@ -5,23 +5,6 @@
 
 ---
 
-## 📁 Structure du projet
-puit-de-log-glf/
-├── DATA
-│   ├── fluent-bit.conf
-│   ├── grafana
-│   └── loki
-├── docker-compose.yml
-├── reverseproxy
-│   ├── certs
-│   └── conf.d
-│       └── nginx.conf
-└── setup.sh
-
-7 directories, 4 files
-
----
-
 ## ⚙️ Installation
 
 ### 1. Cloner le dépôt
