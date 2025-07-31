@@ -15,6 +15,11 @@ cd puit-de-log-glf
 ```
 2. Lancer le script d’installation
 
+```bash
+chmod +x setup.sh
+./setup.sh
+```
+
 Ce script :
 
     Crée le réseau Docker lokinet si besoin
@@ -22,11 +27,6 @@ Ce script :
     Applique les permissions nécessaires (UID/GID)
 
     Lance tous les conteneurs avec docker-compose
-
-```bash
-chmod +x setup.sh
-./setup.sh
-```
 
 ---
 
