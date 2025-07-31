@@ -13,7 +13,7 @@
 git clone https://github.com/votre-utilisateur/puit-de-log-glf.git
 cd puit-de-log-glf
 ```
-2. Lancer le script d’installation
+### 2. Lancer le script d’installation
 
 ```bash
 chmod +x setup.sh
@@ -22,36 +22,30 @@ chmod +x setup.sh
 
 Ce script :
 
-    Crée le réseau Docker lokinet si besoin
+- Crée le réseau Docker lokinet si besoin
 
-    Applique les permissions nécessaires (UID/GID)
+- Applique les permissions nécessaires (UID/GID)
 
-    Lance tous les conteneurs avec docker-compose
+- Lance tous les conteneurs avec docker-compose
 
 ---
 
-🔐 Reverse Proxy (facultatif)
+### 🔐 Reverse Proxy (facultatif)
 
 Le dossier reverseproxy/conf.d/nginx.conf contient un exemple de configuration Nginx avec redirection HTTPS.
-⚠️ Tu dois personnaliser :
+Il faut l'adapter au contexte.
 
-    server_name
+ ---
 
-    Chemin vers les certificats SSL (certs/)
+### 🌍 Accès aux interfaces
 
----
-
-🌍 Accès aux interfaces
-
-    Grafana : http://localhost:3000
-    (ou via ton reverse proxy si configuré)
+Grafana : http://localhost:3000
+(ou via le reverse proxy si configuré)
 
 ---
 
-🧾 Notes
+### 🧾 Notes
 
-    Aucun volume Docker n’est utilisé : bind mounts uniquement
+Aucun volume Docker n’est utilisé : "bind mounts uniquement"
 
-    Tu peux adapter les labels dans fluent-bit.conf selon tes besoins
-
-    loki et grafana écrivent dans DATA/, tout est versionnable / portable
+loki et grafana écrivent dans DATA/
