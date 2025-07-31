@@ -1,7 +1,7 @@
 # 🕳️ Puit de LOG - GLF  
 **Grafana • Loki • Fluent Bit**
 
-> Stack de collecte, centralisation et visualisation de logs — simple, brutale, efficace.
+> Stack de collecte, centralisation et visualisation de logs.
 
 ---
 
