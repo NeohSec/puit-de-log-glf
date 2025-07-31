@@ -213,7 +213,7 @@ launch_containers() {
         
         print_info "Démarrage des services..."
         if docker-compose up -d; then
-            sleep 5
+            sleep 2
             
             print_info "Vérification du statut des containers..."
             docker-compose ps
