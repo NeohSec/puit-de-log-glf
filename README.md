@@ -11,13 +11,16 @@
 
 ```bash
 git clone https://github.com/votre-utilisateur/puit-de-log-glf.git
-
+```
+```bash
 cd puit-de-log-glf
 ```
 ### 2. Lancer le script d’installation
 
 ```bash
 chmod +x setup.sh
+```
+```bash
 ./setup.sh
 ```
 
